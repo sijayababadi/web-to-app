@@ -41,8 +41,7 @@ jobs:
       - name: Set Up JDK
         uses: actions/setup-java@v3
         with:
-          distribution: 'zulu' # See 'Supported distributions' for available options
-          java-version: '17'
+          distribution: 'zulu' # See 'Supported distributions' for available 
           cache: 'gradle'
 
       - name: Change wrapper permissions
